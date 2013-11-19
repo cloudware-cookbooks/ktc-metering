@@ -20,7 +20,6 @@ metering_api = Services::Member.new node.default.fqdn,
   ip: ip
 
 metering_api.save
-KTC::Network.add_service_nat "metering-api", 8777
 
 KTC::Attributes.set
 
