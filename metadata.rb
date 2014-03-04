@@ -10,7 +10,7 @@ version '0.2.2'
   supports os
 end
 
-depends "ktc-utils"
-depends "openstack-common", "~> 0.4.3"
-depends "openstack-metering", "~> 7.0.0"
-depends "services"
+depends 'ktc-utils'
+depends 'openstack-common', '~> 0.4.3'
+depends 'openstack-metering', '~> 7.0.0'
+depends 'services'
